@@ -78,8 +78,17 @@ nav button {
     border-style: solid;
     border-width: 10px;
     padding: 40px 250px;
-    margin: auto 20% 2%;
+    margin: auto 20% 5%;
     text-align: center;
+}
+.innerHead{
+    color: #eaeaea;
+    background-color: #111;
+    font-size: 50px;
+    padding: 1%;
+    position: absolute;
+    left: 30%;
+    right: 30%;
 }
 .images {
     width: 12%;
@@ -145,7 +154,7 @@ input{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1050px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
@@ -156,5 +165,12 @@ input{
     }
     [class*="leftDiv"]{
         margin-left: 8%;
+    }
+    [class*='innerHead']{
+        font-size: 18px;
+        padding: 20px 20px;
+        margin: 1% 10%;
+        right: 15%;
+        left: 15%;
     }
 }
