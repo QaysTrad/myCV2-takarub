@@ -1,3 +1,4 @@
+//Get the drawer
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("theBody").style.marginLeft = "250px";
@@ -8,6 +9,13 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("theBody").style.marginLeft = "0";
     document.body.style.backgroundColor = "white";
+}
+
+
+function login(){
+    var name = document.getElementById("name").value;
+    alert(`Welcome ${name} here :D `);
+    modal.style.display = "none";
 }
 
 // Get the modal
