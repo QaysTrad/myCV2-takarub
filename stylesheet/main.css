@@ -89,6 +89,7 @@ nav button {
     position: absolute;
     left: 30%;
     right: 30%;
+    transition: margin-left .5s;
 }
 .images {
     width: 12%;
@@ -170,7 +171,7 @@ input{
         font-size: 18px;
         padding: 20px 20px;
         margin: 1% 10%;
-        right: 15%;
+        right: 20%;
         left: 15%;
     }
 }
